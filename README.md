@@ -17,7 +17,7 @@ Uses cv2 to load a video frame by frame. If the video is closed while being play
 To compile to an exe, install pyinstaller\
 `pip install pyinstaller`\
 from inside the Unclosable folder, run\
-`pyinstaller --add-data="video.mp4;." --noconsole .\main.py`\
+`pyinstaller --add-data="video.mp4;." --noconsole .\main.py`
 
 now make sure NSIS is installed\
 https://nsis.sourceforge.io/Main_Page \
